@@ -1,0 +1,146 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background:white;
+}
+
+.pattern-1{
+	height: 500px;
+	/* create pattern-1 CSS here */
+}
+
+.pattern-2{
+	height: 100%;
+	/* create pattern-2 CSS here */
+}
+
+.pattern-3{	
+	height: 500px;
+	/* create pattern-3 CSS here */
+	
+}
+
+.pattern-4{
+	height: 100%;
+}
+
+.bluecircle1{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top:700px;
+	left:200px;
+	background-color: rgba(18, 88, 201, 0.4);
+}
+.bluecircle2{
+	width: 500px;
+	height: 500px;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	position: absolute;
+	top:750px;
+	left:400px;
+	background-color: rgba(18, 88, 201, 0.1);
+}
+.bluecircle3{
+	width: 140px;
+	height: 140px;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	position: absolute;
+	top: 800px;
+	left:180px;
+	background-color: rgba(18, 88, 201, 0.9);
+}
+
+.bluecircle4{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	position: absolute;
+	top: 900px;
+	left:150px;
+	background-color: rgba(18, 88, 201, 0.5);
+}
+.bluecircle5{
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top:900px;
+	left:750px;
+	background-color: rgba(18, 88, 201, 0.7);
+}
+
+.pattern-1{
+	height: 500px;
+	/* create pattern-1 CSS here */
+}
+.greencircle5{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top:700px;
+	left:500px;
+	background-color: rgba(100, 229, 20, 0.4);
+}
+.greencircle4{
+	width: 550px;
+	height: 550px;
+	-moz-border-radius: 255px;
+	-webkit-border-radius: 255px;
+	border-radius: 255px;
+	position: absolute;
+	top:650px;
+	left:100px;
+	background-color: rgba(100, 229, 20, 0.2);
+}
+.greencircle3{
+	width: 120px;
+	height: 120px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	position: absolute;
+	top: 850px;
+	left:700px;
+	background-color: rgba(100, 229, 20, 0.8);
+}
+
+.greencircle2{
+	width: 380px;
+	height: 380px;
+	-moz-border-radius: 190px;
+	-webkit-border-radius: 190px;
+	border-radius: 190px;
+	position: absolute;
+	top: 900px;
+	left:350px;
+	background-color: rgba(100, 229, 20, 0.6);
+}
+.greencircle1{
+	width: 190px;
+	height: 190px;
+	-moz-border-radius: 95px;
+	-webkit-border-radius: 95px;
+	border-radius: 95px;
+	position: absolute;
+	top:850px;
+	left:50px;
+	background-color: rgba(100, 229, 20, 0.7);
+}
