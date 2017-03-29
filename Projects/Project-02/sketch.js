@@ -49,26 +49,26 @@ text20= "";
 }
 function setup(){
 	createCanvas(windowWidth, windowHeight);
-		  img1= createImg('images/Nazi_1.jpg');
-	  img2= createImg('images/Nazi_2.jpg');
-	  img3= createImg('images/Nazi_3.jpg');
-	  img4= createImg('images/Nazi_4.jpg');
-	  img5= createImg('images/Nazi_5.jpg');
-	  img6= createImg('images/Nazi_6.jpg');
-	  img7= createImg('images/Nazi_7.jpg');
-	  img8= createImg('images/Nazi_8.jpg');
-	  img9= createImg('images/Nazi_9.jpg');
-	  img10= createImg('images/Nazi_10.jpg');
-	  img11= createImg('images/Nazi_11.jpg');
-	  img12= createImg('images/Nazi_12.jpg');
-	  img13= createImg('images/Nazi_13.jpg');
-	  img14= createImg('images/Nazi_14.jpg');
-	  img15= createImg('images/Nazi_15.jpg');
-	  img16= createImg('images/Nazi_16.jpg');
-	  img17= createImg('images/Nazi_17.jpg');
-	  img18= createImg('images/Nazi_18.jpg');
-	  img19= createImg('images/Nazi_19.jpg');
-	  img20= createImg('images/Nazi_20.jpg');
+		  img1= loadImage('images/Nazi_1.jpg');
+	  img2= loadImage('images/Nazi_2.jpg');
+	  img3= loadImage('images/Nazi_3.jpg');
+	  img4= loadImage('images/Nazi_4.jpg');
+	  img5= loadImage('images/Nazi_5.jpg');
+	  img6= loadImage('images/Nazi_6.jpg');
+	  img7= loadImage('images/Nazi_7.jpg');
+	  img8= loadImage('images/Nazi_8.jpg');
+	  img9= loadImage('images/Nazi_9.jpg');
+	  img10= loadImage('images/Nazi_10.jpg');
+	  img11= loadImage('images/Nazi_11.jpg');
+	  img12= loadImage('images/Nazi_12.jpg');
+	  img13= loadImage('images/Nazi_13.jpg');
+	  img14= loadImage('images/Nazi_14.jpg');
+	  img15= loadImage('images/Nazi_15.jpg');
+	  img16= loadImage('images/Nazi_16.jpg');
+	  img17= loadImage('images/Nazi_17.jpg');
+	  img18= loadImage('images/Nazi_18.jpg');
+	  img19= loadImage('images/Nazi_19.jpg');
+	  img20= loadImage('images/Nazi_20.jpg');
 }
 
 
