@@ -90,25 +90,6 @@ var textArray = [text1,text2, text3, text4, text5, text6, text7, text8, text9, t
 if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
 		var randomimage1 = random(imageArray);
 		image(randomimage1, 100, 100, 400, 600);
-
-	}
-	
-	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
-
-		var randomimage2 = random(imageArray);
-		image(randomimage2, 550, 100, 400, 600);
-
-
-	}
-	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1400 && mouseY<700){
-
-		var randomimage3 = random(imageArray);
-		image(randomimage3, 1000, 100, 400, 600);
-
-	}
-	
-	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
-noLoop();
 		var randomtext1= random(textArray);
 
 		fill(244, random(86, 152), 66);
@@ -118,7 +99,9 @@ text(randomtext1, 150, random(150,650));
 	}
 	
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
-noLoop();
+
+		var randomimage2 = random(imageArray);
+		image(randomimage2, 550, 100, 400, 600);
 
 		var randomtext2 = random(textArray);
 		
@@ -126,10 +109,13 @@ noLoop();
 		textSize(random(11,23));
 		 textFont(font5);
 text(randomtext2, 650, random(150,650));
-noLoop();
+
+
 	}
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1400 && mouseY<700){
 
+		var randomimage3 = random(imageArray);
+		image(randomimage3, 1000, 100, 400, 600);
 var randomtext3= random(textArray);
 
 fill(244, random(86, 152), 66);
