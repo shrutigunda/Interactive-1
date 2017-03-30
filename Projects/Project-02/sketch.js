@@ -109,7 +109,7 @@ function draw(){
 //		textSize(random(11,23));
 //		textFont(font5);
 //		text(randomtext3, 1025, 125, 1375, 675);
-		else if(mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1500 && mouseY<750){
+		else if(mouseIsPressed && mouseX>100 && mouseY>725 && mouseX<1500 && mouseY<800){
 		var randomtext3= random(textArray);
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
