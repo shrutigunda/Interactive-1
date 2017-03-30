@@ -111,4 +111,10 @@ function draw(){
 //		textFont(font5);
 //		text(randomtext3, 1025, 125, 1375, 675);
 	}
+
+		var randomtext1= random(textArray);
+		fill(244, random(86, 152), 66);
+		textSize(random(11,23));
+		textFont(font5);
+		text(randomtext3, 125, 125, 475, 675);
 }
