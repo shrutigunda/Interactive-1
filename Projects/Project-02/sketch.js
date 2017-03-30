@@ -87,40 +87,32 @@ function draw(){
 	var imageArray = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img21, img22, img23, img24, img25, img19, img20];
 var textArray = [text1,text2, text3, text4, text5, text6, text7, text8, text9, text10, text11, text12, text13, text14, text15, text16, text17, text18, text19, text20];
 
-if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
+if( mouseIsPressed && mouseX>100 && mouseY>50 && mouseX<500 && mouseY<700){
 		var randomimage1 = random(imageArray);
-		image(randomimage1, 100, 100, 400, 600);
+		image(randomimage1, 100, 50, 400, 600);
 		var randomtext1= random(textArray);
-
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
-		 textFont(font5);
-text(randomtext1, 150, random(150,650));
+		textFont(font5);
+		text(randomtext1, 150, random(150,650));
 	}
 	
-	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
-
+	else if( mouseIsPressed && mouseX>100 && mouseY>50 && mouseX<950 && mouseY<700){
 		var randomimage2 = random(imageArray);
-		image(randomimage2, 550, 100, 400, 600);
-
+		image(randomimage2, 550, 50, 400, 600);
 		var randomtext2 = random(textArray);
-		
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
-		 textFont(font5);
-text(randomtext2, 650, random(150,650));
-
-
+		textFont(font5);
+		text(randomtext2, 650, random(150,650));
 	}
-	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1400 && mouseY<700){
-
+	else if( mouseIsPressed && mouseX>100 && mouseY>50 && mouseX<1400 && mouseY<700){
 		var randomimage3 = random(imageArray);
-		image(randomimage3, 1000, 100, 400, 600);
-var randomtext3= random(textArray);
-
-fill(244, random(86, 152), 66);
-textSize(random(11,23));
-		 textFont(font5);
-text(randomtext3, 1050, random(150,650));
+		image(randomimage3, 1000, 50, 400, 600);
+		var randomtext3= random(textArray);
+		fill(244, random(86, 152), 66);
+		textSize(random(11,23));
+		textFont(font5);
+		text(randomtext3, 1050, random(150,650));
 	}
 }
