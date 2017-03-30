@@ -116,5 +116,5 @@ function draw(){
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
 		textFont(font5);
-		text(randomtext3, 125, 125, 475, 675);
+		text(randomtext3, 700, 700);
 }
