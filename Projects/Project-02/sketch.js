@@ -86,12 +86,12 @@ function draw(){
 	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
 		var randomimage1 = random(imageArray);
 		image(randomimage1, 100, 100, 400, 600);
-
 		var randomtext1= random(textArray);
+
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
 		textFont(font5);
-		text(randomtext3, 100, 725, 500, 800);
+		text(randomtext3, 100, 725);
 	}
 	
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
@@ -102,7 +102,7 @@ function draw(){
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
 		textFont(font5);
-		text(randomtext3, 550, 725, 950, 800);
+		text(randomtext3, 550, 725);
 	}
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1400 && mouseY<700){
 		var randomimage3 = random(imageArray);
@@ -112,6 +112,6 @@ function draw(){
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
 		textFont(font5);
-		text(randomtext3, 1000, 725, 1400, 800);
+		text(randomtext3, 1000, 725);
 	}
 }
