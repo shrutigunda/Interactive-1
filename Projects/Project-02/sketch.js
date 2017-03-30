@@ -92,9 +92,9 @@ function draw(){
 //		textFont(font5);
 //		text(randomtext3, 125, 125, 475, 675);
 	
-	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
+	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<550 && mouseY<700){
 		var randomimage2 = random(imageArray);
-		image(randomimage2, 500, 50, 400, 600);
+		image(randomimage2, 100, 100, 400, 600);
 //		var randomtext2 = random(textArray);
 //		fill(244, random(86, 152), 66);
 //		textSize(random(11,23));
@@ -109,16 +109,16 @@ function draw(){
 //		textSize(random(11,23));
 //		textFont(font5);
 //		text(randomtext3, 1025, 125, 1375, 675);
-		else if(mouseIsPressed && mouseX>100 && mouseY>725 && mouseX<1500 && mouseY<800){
+		else if(mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1500 && mouseY<800){
 		noStroke();
 		fill(255);
-		rect(100, 700, 1400, 150);
+		rect(600, 100, 1100, 600);
 		var randomtext3= random(textArray);
 		fill(244, 104, 66);
 		textSize(23);
 		textFont(font5);
 //		textAlign(CENTER, CENTER);
-		text(randomtext3, 100, 725);
+		text(randomtext3, 600, 100, 1100, 600);
 		
 }
 }
