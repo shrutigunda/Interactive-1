@@ -20,7 +20,7 @@ var img19;
 var img20;
 var img21, img22, img23, img24, img25;
 
-
+var font5;
 
 var text1,text2, text3, text4, text5, text6, text7, text8, text9, text10, text11, text12, text13, text14, text15, text16, text17, text18, text19, text20;
 
@@ -46,7 +46,7 @@ function preload(){
 	text19= "Baby you light up my world like nobody else.";
 	text20= "I came in like a wrecking ball. I never hit so hard in love";
 
-
+	font5 = loadFont("text/SourceCodePro-Black.ttf");
 }
 
 function setup(){
@@ -86,31 +86,23 @@ function draw(){
 	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
 		var randomimage1 = random(imageArray);
 		image(randomimage1, 100, 100, 400, 600);
-		var randomtext1= random(textArray);
-		fill(244, random(86, 152), 66);
-		textSize(random(11,23));
 
-		text(randomtext3, 125, 125);
 	}
 	
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
 		var randomimage2 = random(imageArray);
 		image(randomimage2, 550, 100, 400, 600);
-		var randomtext2 = random(textArray);
-		fill(244, random(86, 152), 66);
-		textSize(random(11,23));
 
-		text(randomtext3, 575, 125);
 	}
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1400 && mouseY<700){
 		var randomimage3 = random(imageArray);
 		image(randomimage3, 1000, 100, 400, 600);
+
+	}
+
 		var randomtext3= random(textArray);
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
-
-		text(randomtext3, 1025, 125);
-	}
-
-
+		textFont(font5);
+		text(randomtext3, 100, 725);
 }
