@@ -117,8 +117,8 @@ function draw(){
 		fill(244, 104, 66);
 		textSize(23);
 		textFont(font5);
-		textAlign(CENTER);
-		text(randomtext3, 100, 725);
+//		textAlign(CENTER, CENTER);
+		text(randomtext3, width/2, 725);
 		
 }
 }
