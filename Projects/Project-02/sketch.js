@@ -87,7 +87,6 @@ function draw(){
 		var randomimage1 = random(imageArray);
 		image(randomimage1, 100, 100, 400, 600);
 	}
-	
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
 		var randomimage2 = random(imageArray);
 		image(randomimage2, 550, 100, 400, 600);
@@ -96,8 +95,10 @@ function draw(){
 		var randomimage3 = random(imageArray);
 		image(randomimage3, 1000, 100, 400, 600);
 	}
-	
+
 }
+
+
 
 
 	
