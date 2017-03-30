@@ -47,7 +47,7 @@ text18= "So I cross my heart and I hope to die. That I'll only stay with you one
 text19= "Baby you light up my world like nobody else.";
 text20= "I came in like a wrecking ball. I never hit so hard in love";
 
-font5 = loadFont("text/SourceCodePro-Bold.ttf");
+font5 = loadFont("text/SourceCodePro-Black.ttf");
 
 }
 function setup(){
