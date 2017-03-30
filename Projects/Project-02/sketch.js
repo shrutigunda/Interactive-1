@@ -109,16 +109,16 @@ function draw(){
 //		textSize(random(11,23));
 //		textFont(font5);
 //		text(randomtext3, 1025, 125, 1375, 675);
-		else if(mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1100 && mouseY<800){
+		else if(mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<800 && mouseY<800){
 		noStroke();
 		fill(255);
-		rect(600, 100, 1000, 600);
+		rect(600, 300, 800, 600);
 		var randomtext3= random(textArray);
 		fill(244, 104, 66);
 		textSize(23);
 		textFont(font5);
 //		textAlign(CENTER, CENTER);
-		text(randomtext3, 600, 100, 1000, 600);
+		text(randomtext3, 600, 300, 800, 600);
 		
 }
 }
