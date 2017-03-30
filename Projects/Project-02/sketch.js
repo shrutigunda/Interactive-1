@@ -86,11 +86,11 @@ function draw(){
 	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
 		var randomimage1 = random(imageArray);
 		image(randomimage1, 100, 100, 400, 600);
-		var randomtext1= random(textArray);
-		fill(244, random(86, 152), 66);
-		textSize(random(11,23));
-		textFont(font5);
-		text(randomtext3, 125, 125, 475, 675);
+//		var randomtext1= random(textArray);
+//		fill(244, random(86, 152), 66);
+//		textSize(random(11,23));
+//		textFont(font5);
+//		text(randomtext3, 125, 125, 475, 675);
 	}
 	
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
