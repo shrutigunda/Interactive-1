@@ -110,6 +110,8 @@ function draw(){
 //		textFont(font5);
 //		text(randomtext3, 1025, 125, 1375, 675);
 		else if(mouseIsPressed && mouseX>100 && mouseY>725 && mouseX<1500 && mouseY<800){
+		fill(255);
+		rect(100, 700, 1400, 100);
 		var randomtext3= random(textArray);
 		fill(244, random(86, 152), 66);
 		textSize(random(11,23));
