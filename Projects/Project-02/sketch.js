@@ -108,7 +108,7 @@ if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
 	}
 	
 	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<500 && mouseY<700){
-
+noLoop();
 		var randomtext1= random(textArray);
 
 		fill(244, random(86, 152), 66);
@@ -118,7 +118,7 @@ text(randomtext1, 150, random(150,650));
 	}
 	
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
-
+noLoop();
 
 		var randomtext2 = random(textArray);
 		
@@ -126,7 +126,7 @@ text(randomtext1, 150, random(150,650));
 		textSize(random(11,23));
 		 textFont(font5);
 text(randomtext2, 650, random(150,650));
-
+noLoop();
 	}
 	else if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<1400 && mouseY<700){
 
