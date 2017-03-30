@@ -94,7 +94,7 @@ function draw(){
 	
 	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<950 && mouseY<700){
 		var randomimage2 = random(imageArray);
-		image(randomimage2, 550, 100, 400, 600);
+		image(randomimage2, 500, 50, 400, 600);
 //		var randomtext2 = random(textArray);
 //		fill(244, random(86, 152), 66);
 //		textSize(random(11,23));
@@ -112,7 +112,7 @@ function draw(){
 		else if(mouseIsPressed && mouseX>100 && mouseY>725 && mouseX<1500 && mouseY<800){
 		noStroke();
 		fill(255);
-		rect(100, 700, 1400, 100);
+		rect(100, 700, 1400, 150);
 		var randomtext3= random(textArray);
 		fill(244, 104, 66);
 		textSize(23);
