@@ -3,7 +3,7 @@
 body {
 background-color: rgb(66,66,66); 
 font-family: 'Source Code Pro', monospace;
- 
+ color: white;
 
 }
 a{
@@ -37,16 +37,6 @@ a:visited{
 	border-radius:200px;
 	display: inline-block;
 }
-
-/* Text
--------------------------------------------------- */
-
-
-
-/* Image
--------------------------------------------------- */
-
-/*Shapes*/
 
 /* iPad 
 -------------------------------------------------- */
