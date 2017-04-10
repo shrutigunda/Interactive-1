@@ -2,6 +2,9 @@
 
 body {
 background-color: rgb(66,66,66); 
+font-family: 'Source Code Pro', monospace;
+      color:#f46842; 
+
 }
 .decorative{
 	position:absolute;
