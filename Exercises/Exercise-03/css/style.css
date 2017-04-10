@@ -3,7 +3,7 @@
 body {
 background-color: rgb(66,66,66); 
 font-family: 'Source Code Pro', monospace;
-      color:#f46842; 
+ 
 
 }
 a{
@@ -53,10 +53,9 @@ a:visited{
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
   /* text */
-.text{
-      font-family: 'Source Code Pro', monospace;
-      color:#f46842; 
+h1, h2, h3{ 
       text-transform:lowercase;
+      color:#f46842;
     }
   /* image */
   img{
@@ -73,10 +72,9 @@ a:visited{
 @media screen and (max-width: 768px) {
 
   /* text */
-.text{
-      font-family: 'Source Code Pro', monospace;
-      color:#f46842; 
+h1, h2, h3{
       text-transform:uppercase;
+      color:#f46842;
     }
 
   /* image */
