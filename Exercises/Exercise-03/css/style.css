@@ -1,4 +1,4 @@
-@import url();
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body {
 
@@ -39,18 +39,12 @@ body {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
   /* text */
-  h1{
-  	font-size: 2em;
-
-  }
-h2{
-  	font-size: 2em;
-  	
-  }
-h3{
-  	font-size: 2em;
-  	
-  }
+.h1, .h2, .h3{
+      font-family: 'Source Code Pro', monospace;
+      background-color: rgb(66,66,66); 
+      color:#f46842; 
+      text-transform:lowercase;
+    }
   /* image */
   img{
   	width:50%;
@@ -66,11 +60,11 @@ h3{
 @media screen and (max-width: 768px) {
 
   /* text */
-body{
+.h1, .h2, .h3{
       font-family: 'Source Code Pro', monospace;
       background-color: rgb(66,66,66); 
       color:#f46842; 
-      text-transform:lowercase;
+      text-transform:uppercase;
     }
 
   /* image */
