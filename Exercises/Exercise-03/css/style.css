@@ -39,7 +39,7 @@ background-color: rgb(66,66,66);
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
   /* text */
-.h1, .h2, .h3{
+.h1 .h2 .h3{
       font-family: 'Source Code Pro', monospace;
       color:#f46842; 
       text-transform:lowercase;
@@ -59,7 +59,7 @@ background-color: rgb(66,66,66);
 @media screen and (max-width: 768px) {
 
   /* text */
-.h1, .h2, .h3{
+.h1 .h2 .h3{
       font-family: 'Source Code Pro', monospace;
       color:#f46842; 
       text-transform:uppercase;
