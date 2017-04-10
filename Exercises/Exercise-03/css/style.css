@@ -6,6 +6,17 @@ font-family: 'Source Code Pro', monospace;
       color:#f46842; 
 
 }
+.a{
+  color: white;
+  text-decoration: none;
+}
+.a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.a:visited{
+  color: rgb(244, 104, 66);
+}
 .decorative{
 	position:absolute;
 	top: 45%;
