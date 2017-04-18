@@ -1,0 +1,147 @@
+  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    body{
+      font-family: 'Source Code Pro', monospace;
+        
+
+    }
+       
+    a {
+      color:rgb(66,66,66);
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color:#f46842;
+      color: white;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      color: #f46842;
+    }
+    .continent{
+      background-color:#f46842;
+      color: white;
+    }
+    .main {
+      position: absolute;
+      top: 40px;
+      left:440px;
+      box-sizing: border-box;
+      width: 640px;
+      height:640px;
+      padding: 40px;
+      background-color: rgb(66,66,66);
+            color: white;
+    }
+    .back{
+      position: fixed;
+      top:40px;
+      left: 40px;
+      color:#f46842;
+
+    }
+    .tag{
+      position: fixed;
+      top: 690px;
+      right:60px;
+    }
+    .tile1{
+      position: fixed;
+      top:460px;
+      left:650px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
+    .tile2 {
+      position: fixed;
+      top:40px;
+      left:650px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
+    .tile3 {
+      position: fixed;
+      top:40px;
+      left:860px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
+    .tile4 {
+      position: fixed;
+      top:250px;
+      left:440px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
+    .tile5 {
+      position: fixed;
+      top:250px;
+      left:650px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
+    .tile6 {
+      position: fixed;
+      top:250px;
+      left:860px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
+    .tile7 {
+      position: fixed;
+      top:460px;
+      left:440px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
+    .tile8 {
+      position: fixed;
+      top:460px;
+      left:860px;
+      width:200px;
+      height: 200px;
+      box-sizing: border-box;
+      background-color:#f46842;
+      margin:10px;
+      z-index: 100;
+
+    }
