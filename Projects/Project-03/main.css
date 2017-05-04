@@ -4,14 +4,22 @@
         
 
     }
+    
        
-    a {
-      color:rgb(66,66,66);
+    .back a {
+      color:#424242;
       text-decoration: none;
+      font-size:0.75em;
     }
 
-    a:hover {
-      background-color:#f46842;
+
+    #tag a, #region a{
+      color:#b20808;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    #tag a:hover, #region a:hover, .back a:hover{
+      background-color:#b20808;
       color: white;
     }
 
@@ -20,33 +28,42 @@
     }
 
     ul li {
-      color: #f46842;
+      color: #b20808;
     }
-    .continent{
+    /*.continent{
       background-color:#f46842;
       color: white;
-    }
+    }*/
     .main {
       position: absolute;
       top: 40px;
-      left:440px;
+      left:250px;
       box-sizing: border-box;
       width: 640px;
       height:640px;
       padding: 40px;
-      background-color: rgb(66,66,66);
-            color: white;
+      /*background-color: rgb(66,66,66);*/
+            color: #424242;
     }
+
+
     .back{
       position: fixed;
-      top:40px;
-      left: 40px;
-      color:#f46842;
-
+      top: 550px;
+      right: 250px;
     }
-    .tag{
+    #tag{
       position: fixed;
-      top: 690px;
-      right:60px;
+      top: 250px;
+      right:250px;
+      font-size: 0.75em;
+      color: #424242;
+    }
+    #region{
+      position: fixed;
+      top:200px;
+      right:250px;
+      font-size: 1.25em;
+      color: #424242;
     }
 

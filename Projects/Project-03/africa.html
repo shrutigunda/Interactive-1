@@ -4,20 +4,24 @@
 <head>
   <title>Africa</title>
   <meta charset="utf-8" />
- <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="main.css" />
+  <script type="text/javascript" src="jquery-latest.pack.js"></script>
+  <script type="text/javascript" src="jquery.puzzle.js"></script>
+  <script type="text/javascript">
+ $(
+      function(){
+        $( "div.puzzle" ).puzzle( 200 );      
+      }   
+      );
+  
+  </script>
 </head>
-
 <body>
 <div class="back">
-<ul>
-<li><a href="index.html">Project 3</a></li>
-<br>
-      <li><span class="continent">Africa</span></li>
-        <li><a href="asia.html">Asia</a></li>
-<li><a href="australia.html">Australia</a></li>        
-        <li><a href="europe.html">Europe</a></li>
-        <li><a href="southamerica.html">South America</a></li>
-</ul>
+<a href="index.html"><h2>Media Transparency >></h2></a></div>
+
+<div id="region">
+<h2>< Africa&nbsp;<a href="asia.html">></a></h2>
 </div>
   <div class="main">
   <h1>Ethiopia says 669 killed in months of violent protests.</h1>
@@ -29,7 +33,20 @@ Human rights groups have accused Ethiopia's government of carrying out extrajudi
 
 
   </p>
+
   </div>
-   <div class="tag">Fox News 04.18.2017</div> 
+<div 
+    class="puzzle"
+    style="float: left ; margin-right: 50px ;">
+  
+    <img 
+      src="blue.jpg" 
+      width="600" 
+      height="600" 
+      
+      />
+      
+  </div>
+   <div id="tag"><h2>< 04.18.2017&nbsp;<a href="africa2.html">></a></h2></div> 
 </body>
 </html>

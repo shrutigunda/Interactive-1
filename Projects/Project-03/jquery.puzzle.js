@@ -39,7 +39,7 @@ jQuery.fn.puzzle = function( intUserSize ){
 					.css(
 						{
 							top: "50px",
-							left: "450px",
+							left: "260px",
 							overflow: "hidden",
 							display: "block"
 						}
