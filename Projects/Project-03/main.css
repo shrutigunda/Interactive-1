@@ -4,14 +4,14 @@
         
 
     }
-    
-       
-    .back a {
-      color:#424242;
+    a{
+      color:#b20808;
       text-decoration: none;
-      font-size:0.75em;
     }
-
+    a:hover{
+      background-color:#b20808;
+      color:white;
+    }
 
     #tag a, #region a{
       color:#b20808;
@@ -20,20 +20,21 @@
     }
     #tag a:hover, #region a:hover, .back a:hover{
       background-color:#b20808;
-      color: white;
+      color:#ffffff;
+    }
+    .back{
+      color: #424242;
+      font-size: 0.75em;
+    }
+    .back a {
+      color:#b20808;
+      text-decoration: none;
+    }
+    .back a:hover{
+      background-color: #b20808;
+      color: #ffffff;
     }
 
-    ul {
-      list-style: none;
-    }
-
-    ul li {
-      color: #b20808;
-    }
-    /*.continent{
-      background-color:#f46842;
-      color: white;
-    }*/
     .main {
       position: absolute;
       top: 40px;
