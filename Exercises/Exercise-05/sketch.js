@@ -79,9 +79,11 @@ function setup(){
 
 }
 
-function draw(){	
+function draw(){
+var intro = "Click anywhere on screen";	
+textSize(19);
 textFont(font5);
-text("Click anywhere on screen.", 25, 25, 75, 50);
+text(intro, 25, 25);
 jumble();
 }
 
@@ -103,7 +105,6 @@ function jumble(){
 		fill(244, 104, 66);
 		textSize(23);
 		textFont(font5);
-
 		text(randomtext3, 600, 300, 800, 600);
 		
 }
