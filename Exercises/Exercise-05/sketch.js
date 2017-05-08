@@ -91,10 +91,10 @@ function draw(){
 //		textSize(random(11,23));
 //		textFont(font5);
 //		text(randomtext3, 125, 125, 475, 675);
-switch();
+swap();
 }
 
-function switch(){
+function swap(){
 	
 	if( mouseIsPressed && mouseX>100 && mouseY>100 && mouseX<550 && mouseY<700){
 		var randomimage2 = random(imageArray);
