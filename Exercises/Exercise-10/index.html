@@ -10,11 +10,6 @@
 
 				myVideo.pause();
 
-				$("#doorbell")[0].play();
-		/*
-				var dogAudio = $("#bark")[0];
-				dogAudio.play();
-		*/
 				var dogAudio = $("#bark")[0];
 				$("#box1").mouseenter(function(){
 					dogAudio.play();
@@ -47,9 +42,7 @@
 		<div id="box1">
 		</div>
 
-		<audio id= "doorbell">
-			<source src="assets/doorbell.mp3" type="audio/mp3">
-		</audio>
+
 
 		<audio controls>
 			<source src="assets/horse.ogg" type="audio/ogg">
@@ -61,7 +54,7 @@
 -->
 
 		<audio id="bark">
-			<source src="assets/bark.wav" type="audio/wav">
+			<source src="assets/doorbell.mp3" type="audio/mp3">
 		</audio>
 
 		<video id="beachy" width="400" autoplay>
