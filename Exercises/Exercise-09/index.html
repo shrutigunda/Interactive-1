@@ -7,14 +7,23 @@
     Exercise 5
   </title>
   <style>
-	  body {
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    body{
+      font-family: 'Source Code Pro', monospace;
+      background-color: rgb(66,66,66); 
+      color:#f46842; 
+      text-transform:lowercase;
+      font-size: 3em;
 	  	margin: 0;
 	  }
 
   	button {
+      font-family: 'Source Code Pro', monospace;
+      background-color:#f46842; 
+      color:#FFF; 
   		padding: 5px;
   		margin: 5px;
-  		font-size: 1.0em;
+  		font-size: 0.5em;
   		cursor: pointer;
   	}
 
@@ -22,12 +31,12 @@
   		position: fixed;
   		top:100px;
   		left:0;
-  		background-color: #FFF;
+  		background-color: rgb(66,66,66);
   		padding: 15px;
   	}
 
     .box {
-    	height: 800px;
+    	height: 1600px;
     	color: #FFF;
     	background-size: cover;
     	background-position: center center;
@@ -88,32 +97,33 @@
 <body>
 
 	<div class="nav">
-		<button id="btn-s1">s1</button><br />
-		<button id="btn-s2">s2</button><br />
-		<button id="btn-s3">s3</button><br />
-		<button id="btn-s4">s4</button><br />
-		<button id="btn-s5">s5</button><br />
+		<button id="btn-s1">candy</button><br />
+		<button id="btn-s2">pie</button><br />
+		<button id="btn-s3">pastry</button><br />
+		<button id="btn-s4">tart</button><br />
+		<button id="btn-s5">donut</button><br />
 	</div>
   
   <div class="box s1">
-  	Section 1
+  	Candy
   </div>
   
   <div class="box s2">
-  	Section 2
+  	Pie
   </div>
   
   <div class="box s3">
-  	Section 3
+  	Pastry
   </div>
   
   <div class="box s4">
-  	Section 4
+  	Tart
   </div>
   
   <div class="box s5">
-  	Section 5
+  	Donut
   </div>
 
 </body>
 </html>
+
